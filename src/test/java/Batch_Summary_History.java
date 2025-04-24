@@ -1,0 +1,126 @@
+import io.restassured.response.Response;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.given;
+
+public class Batch_Summary_History {
+    @Test(priority = 0)
+    void GetBatchSummaryHistory() {
+
+        // Send the GET request
+        Response response = given().
+                header("Content-Type", "application/json").
+                // If needed, uncomment the Authorization header.
+                // header("Authorization", "Bearer " + token).
+                        when().
+                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetBatchSummaryHistory?systemBatchNumber=15");
+
+        // Log the response details for debugging purposes
+        System.out.println("Status Code: " + response.getStatusCode());
+        System.out.println("Response: " + response.getBody().asString());
+        System.out.println("Time Taken: " + response.getTime());
+        System.out.println("Content-Type: " + response.getHeader("Content-Type"));
+
+        // Parse the response
+        String responseBody = response.getBody().asString();
+        String contentType = response.getHeader("Content-Type");
+
+        // Check if the response content type is JSON
+        if (contentType != null && contentType.contains("json")) {
+            int statusCode = response.statusCode();
+
+            // Assert the status code is 200 for a successful response
+            Assert.assertEquals(statusCode, 200, "Expected status code 200 for successful response");
+
+            // Assert that the response body contains 'startDate'
+            Assert.assertTrue(responseBody.contains("batchNumber"), "'startDate' should be present in the response body");
+            System.out.println("batchNumber found in response: " + responseBody);
+        } else {
+            // Log and fail the test if the response is not JSON
+            System.out.println("Unexpected response content type: " + contentType);
+            Assert.fail("Expected JSON response but received: " + contentType);
+        }
+    }
+
+    @Test(priority = 1)
+    void GetBatchSummaryHistory_With_Invalid_SystemBatchNumber() {
+
+        // Assuming authorization is required
+        String token = "your_token";  // Replace with actual token
+        String requestBody = "";  // Set the request body if needed
+
+        // Send GET request
+        Response response = given().
+                header("Content-Type", "application/json").
+                header("Authorization", "Bearer " + token). // Uncomment if authorization is needed
+                //body(requestBody). // Uncomment if body is needed
+                        when().
+                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetBatchSummaryHistory?systemBatchNumber=15t");
+
+        // Print response details
+        System.out.println("Status Code : " + response.getStatusCode());
+        System.out.println("Response : " + response.getBody().asString());
+        System.out.println("Body : " + response.getBody());
+        System.out.println("Time taken : " + response.getTime());
+        System.out.println("Header : " + response.getHeader("content-type"));
+
+        // Get the response body and content type
+        String responseBody = response.getBody().asString();
+        String contentType = response.getHeader("content-type");
+
+        if (contentType != null && contentType.contains("json")) {
+            int statusCode = response.statusCode();
+
+            // Assert the expected status code
+            Assert.assertEquals(statusCode, 404, "Expected status code 404, but got " + statusCode);
+
+            // Assert the error message is present in the response body
+            Assert.assertTrue(responseBody.contains("errorMessages"), "Error message not found in response");
+
+            System.out.println("Error Messages: " + responseBody);
+        } else {
+            System.out.println("Unexpected response code: " + response.statusCode());
+        }
+
+        // Optionally assert that response time is under a certain limit
+        Assert.assertTrue(response.getTime() < 2000, "Response time exceeded limit");
+    }
+    @Test(priority = 2)
+    void GetBatchSummaryHistory_With_Blank_SystemBatchNumber() {
+        // Send the GET request
+        Response response = given().
+                header("Content-Type", "application/json").
+                // If needed, uncomment the Authorization header.
+                // header("Authorization", "Bearer " + token).
+                        when().
+                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetBatchSummaryHistory");
+
+        // Log the response details for debugging purposes
+        System.out.println("Status Code: " + response.getStatusCode());
+        System.out.println("Response: " + response.getBody().asString());
+        System.out.println("Time Taken: " + response.getTime());
+        System.out.println("Content-Type: " + response.getHeader("Content-Type"));
+
+        // Parse the response
+        String responseBody = response.getBody().asString();
+        String contentType = response.getHeader("Content-Type");
+
+        // Check if the response content type is JSON
+        if (contentType != null && contentType.contains("json")) {
+            int statusCode = response.statusCode();
+
+            // Assert the status code is 200 for a successful response
+            Assert.assertEquals(statusCode, 200, "Expected status code 200 for successful response");
+
+            // Assert that the response body contains 'startDate'
+            Assert.assertTrue(responseBody.contains("batchNumber"), "'startDate' should be present in the response body");
+            System.out.println("batchNumber found in response: " + responseBody);
+        } else {
+            // Log and fail the test if the response is not JSON
+            System.out.println("Unexpected response content type: " + contentType);
+            Assert.fail("Expected JSON response but received: " + contentType);
+        }
+    }
+}
+

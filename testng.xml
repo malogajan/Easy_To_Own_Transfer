@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Easy To Own Transfer">
+    <test name="Easy To Own Transfer Automation Testing">
+        <classes>
+            <class name="Dashboard_Summary"/>
+            <class name="Stock_Warehouse_Transfer_Details_Data"/>
+            <class name="Transfer_Confirmation"/>
+            <class name="Device_Makes"/>
+            <class name="Transfer_Confirmation_Status"/>
+            <class name="Device_Model"/>
+            <class name="Active_Agents"/>
+            <class name="Active_Hubs"/>
+            <class name="Active_Warehouse_Boxtype"/>
+            <class name="Active_Warehouses"/>
+            <class name="Confirmation_Transfer"/>
+            <class name="Existing_Scanned_Box_Detail"/>
+            <class name="Process_Transfer"/>
+            <class name="Products"/>
+            <class name="Remove_Scanned_Box_Detail"/>
+            <class name="Scanned_Box_Detail"/>
+            <class name="Stock_Sim_Transfer_Summary"/>
+            <class name="Stock_Warehouse_Transfer_Detail"/>
+            <class name="Transfer_Dispatch_Detail"/>
+            <class name="Transfer_Dispatch_Status"/>
+            <class name="Transfer_Product_Verification_Detail"/>
+            <class name="Transfer_Report"/>
+            <class name="Transfer_Verification_Detail"/>
+            <class name="Update_Dispatch_Transfer_Status"/>
+            <class name="Device_Receive_Stock_Users"/>
+            <class name="Get_Receive_Stock_Summary_Header_By_Count"/>
+            <class name="Receive_Stock_Summary_By_Batch"/>
+            <class name="Batch_Summary_History"/>
+            <class name="Stock_Stage_Scanned_Summary"/>
+            <class name="Save_Scanned_Stock"/>
+            <class name="Find_Exisiting_IMEI"/>
+            <class name="Find_Max_Id"/>
+            <class name="Update_Procurement_Header"/>
+            <class name="Update_Warehouse_Inventory"/>
+            <class name="Update_Stock_Procurement"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
