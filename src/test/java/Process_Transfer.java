@@ -21,7 +21,7 @@ public class Process_Transfer {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/ProcessTransfer");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/ProcessTransfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -58,7 +58,7 @@ public class Process_Transfer {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/ProcessTransfer");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/ProcessTransfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -95,7 +95,7 @@ public class Process_Transfer {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/ProcessTransfer");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/ProcessTransfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -132,7 +132,7 @@ public class Process_Transfer {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/ProcessTransfer");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/ProcessTransfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

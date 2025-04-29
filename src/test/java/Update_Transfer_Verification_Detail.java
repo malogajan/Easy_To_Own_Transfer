@@ -18,7 +18,7 @@ public class Update_Transfer_Verification_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
+                put("http://10.111.111.139:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -52,7 +52,7 @@ public class Update_Transfer_Verification_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
+                put("http://10.111.111.139:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -86,7 +86,7 @@ public class Update_Transfer_Verification_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
+                put("http://10.111.111.139:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -120,7 +120,7 @@ public class Update_Transfer_Verification_Detail {
                 //header("Authorization", "Bearer " + token).
                 body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
+                put("http://10.111.111.139:7019/api/EasyToOwnTransfer/UpdateTransferVerificationDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

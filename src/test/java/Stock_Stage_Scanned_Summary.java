@@ -14,7 +14,7 @@ public class Stock_Stage_Scanned_Summary {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnScanning/GetStockStageScannedSummary?systemBatchNumber=15");
+                get("http://10.111.111.139:7019/api/EasyToOwnScanning/GetStockStageScannedSummary?systemBatchNumber=15");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -56,7 +56,7 @@ public class Stock_Stage_Scanned_Summary {
                 header("Authorization", "Bearer " + token). // Uncomment if authorization is needed
                 //body(requestBody). // Uncomment if body is needed
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnScanning/GetStockStageScannedSummary?systemBatchNumber=45y");
+                get("http://10.111.111.139:7019/api/EasyToOwnScanning/GetStockStageScannedSummary?systemBatchNumber=45y");
 
         // Print response details
         System.out.println("Status Code : " + response.getStatusCode());
@@ -95,7 +95,7 @@ public class Stock_Stage_Scanned_Summary {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnScanning/GetStockStageScannedSummary?systemBatchNumber=");
+                get("http://10.111.111.139:7019/api/EasyToOwnScanning/GetStockStageScannedSummary?systemBatchNumber=");
 
         // Log status code, body, and response time for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());

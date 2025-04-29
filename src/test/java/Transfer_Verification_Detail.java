@@ -15,7 +15,7 @@ public class Transfer_Verification_Detail {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferVerificationDetail?receiptId=7");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferVerificationDetail?receiptId=7");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -46,7 +46,7 @@ public class Transfer_Verification_Detail {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferVerificationDetail?receiptId=70");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferVerificationDetail?receiptId=70");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

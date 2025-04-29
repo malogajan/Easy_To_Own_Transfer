@@ -15,7 +15,7 @@ public class Update_Stock_Procurement {
                 //.header("Authorization", "Bearer " + token) // Uncomment if auth is needed
                 //.body(requestBody) // Only used if POST method
                 .when()
-                .post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateStockProcurement");
+                .post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateStockProcurement");
 
         // 🧾 Print basic response details
         System.out.println("Status Code : " + response.getStatusCode());

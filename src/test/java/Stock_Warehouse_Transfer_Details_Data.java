@@ -1,5 +1,3 @@
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -17,7 +15,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transfer&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transfer&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -48,7 +46,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=20025%2F03%2F17&transferType=Agent%20Transfer&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=20025%2F03%2F17&transferType=Agent%20Transfer&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -79,7 +77,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2021%2F03%2F17&transferType=Agent%20Transfer&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2021%2F03%2F17&transferType=Agent%20Transfer&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -111,7 +109,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=20045%2F03%2F17&transferType=Agent%20Transfer&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=20045%2F03%2F17&transferType=Agent%20Transfer&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -143,7 +141,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?transferType=Agent%20Transfer&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?transferType=Agent%20Transfer&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -174,7 +172,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -205,7 +203,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transferr&status=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transferr&status=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -236,7 +234,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transfer");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -267,7 +265,7 @@ public class Stock_Warehouse_Transfer_Details_Data {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transfer&status=675675'");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetailData?reportDate=2025%2F03%2F17&transferType=Agent%20Transfer&status=675675'");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

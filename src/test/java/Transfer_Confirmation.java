@@ -1,5 +1,3 @@
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -17,7 +15,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=1&codeTo=Q215756&isWarehouseTransfer=true");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=1&codeTo=Q215756&isWarehouseTransfer=true");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -49,7 +47,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=5655656565657&qtySum=1&codeTo=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=5655656565657&qtySum=1&codeTo=Q215756");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -81,7 +79,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmationStatus?codeTo=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmationStatus?codeTo=Q215756");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -113,7 +111,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=-1&codeTo=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=-1&codeTo=Q215756");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -145,7 +143,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&codeTo=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&codeTo=Q215756");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -177,7 +175,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=-0&codeTo=Q215756&isWarehouseTransfer=true");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=-0&codeTo=Q215756&isWarehouseTransfer=true");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -209,7 +207,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=100&codeTo=Q215756&isWarehouseTransfer=true");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=100&codeTo=Q215756&isWarehouseTransfer=true");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -241,7 +239,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=1&isWarehouseTransfer=true");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=1&isWarehouseTransfer=true");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -273,7 +271,7 @@ public class Transfer_Confirmation {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferConfirmation?receiptNo=7&qtySum=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

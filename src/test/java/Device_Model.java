@@ -17,7 +17,7 @@ public class Device_Model {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDeviceModel?DeviceMakeId=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDeviceModel?DeviceMakeId=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -49,7 +49,7 @@ public class Device_Model {
                     //header("Authorization", "Bearer " + token).
                     //body(requestBody).
                             when().
-                    get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDeviceModel?DeviceMakeId=100");
+                    get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDeviceModel?DeviceMakeId=100");
 
             System.out.println("Status Code : " + response.getStatusCode());
             System.out.println("Response : " + response.getBody().asString());
@@ -81,7 +81,7 @@ public class Device_Model {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDeviceModel?DeviceMakeId=");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDeviceModel?DeviceMakeId=");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

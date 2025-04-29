@@ -16,7 +16,7 @@ public class Find_Max_Id {
                     //.header("Authorization", "Bearer " + token) // Uncomment if auth is needed
                     //.body(requestBody) // Only used if POST method
                     .when()
-                    .get("http://10.0.0.26:7019/api/EasyToOwnProcurement/FindMaxId");
+                    .get("http://10.111.111.139:7019/api/EasyToOwnProcurement/FindMaxId");
 
             // 🧾 Print basic response details
             System.out.println("Status Code : " + response.getStatusCode());

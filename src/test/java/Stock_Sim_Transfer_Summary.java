@@ -15,7 +15,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?transferType=Agent%20Transfer");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?transferType=Agent%20Transfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -46,7 +46,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=20825%2F03%2F17&transferType=Agent%20Transfer");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=20825%2F03%2F17&transferType=Agent%20Transfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -77,7 +77,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2005%2F03%2F17&transferType=Agent%20Transfer");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2005%2F03%2F17&transferType=Agent%20Transfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -109,7 +109,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2055%2F03%2F17&transferType=Agent%20Transfer");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2055%2F03%2F17&transferType=Agent%20Transfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -141,7 +141,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?transferType=Agent%20Transfer");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?transferType=Agent%20Transfer");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -172,7 +172,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2025%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2025%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -203,7 +203,7 @@ public class Stock_Sim_Transfer_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2025%2F03%2F17&transferType=Agent%20Transferrr");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockSimTransferSummary?reportDate=2025%2F03%2F17&transferType=Agent%20Transferrr");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

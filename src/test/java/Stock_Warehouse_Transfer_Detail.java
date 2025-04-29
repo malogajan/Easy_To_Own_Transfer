@@ -15,7 +15,7 @@ public class Stock_Warehouse_Transfer_Detail {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?receiptId=700&whsCode=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?receiptId=700&whsCode=Q215756");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -46,7 +46,7 @@ public class Stock_Warehouse_Transfer_Detail {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?receiptId=700&whsCode=Q215756&startDate=2025%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?receiptId=700&whsCode=Q215756&startDate=2025%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -77,7 +77,7 @@ public class Stock_Warehouse_Transfer_Detail {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?receiptId=7&whsCode=Q215756&startDate=20725%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?receiptId=7&whsCode=Q215756&startDate=20725%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -108,7 +108,7 @@ public class Stock_Warehouse_Transfer_Detail {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?whsCode=Q215756&startDate=2025%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetStockWarehouseTransferDetail?whsCode=Q215756&startDate=2025%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

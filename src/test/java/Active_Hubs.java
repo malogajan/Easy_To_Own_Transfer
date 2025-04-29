@@ -15,7 +15,7 @@ public class Active_Hubs {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetAllActiveHubs?hubCode=1551&msisdn=0123698745");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetAllActiveHubs?hubCode=1551&msisdn=0123698745");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

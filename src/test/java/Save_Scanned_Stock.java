@@ -25,7 +25,7 @@ public class Save_Scanned_Stock {
                     // header("Authorization", "Bearer " + token).
                     body(requestBody). // Uncomment if body is needed
                             when().
-                    post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                    post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
             // Log the response details for debugging purposes
             System.out.println("Status Code: " + response.getStatusCode());
@@ -76,7 +76,7 @@ public class Save_Scanned_Stock {
                     // header("Authorization", "Bearer " + token).
                             body(requestBody). // Uncomment if body is needed
                             when().
-                    post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                    post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
             // Log the response details for debugging purposes
             System.out.println("Status Code: " + response.getStatusCode());
@@ -126,7 +126,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -176,7 +176,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -226,7 +226,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -276,7 +276,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -326,7 +326,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -376,7 +376,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -426,7 +426,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -476,7 +476,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -526,7 +526,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -576,7 +576,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -626,7 +626,7 @@ public class Save_Scanned_Stock {
                 // header("Authorization", "Bearer " + token).
                         body(requestBody). // Uncomment if body is needed
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnScanning/SaveScannedStock");
+                post("http://10.111.111.139:7019/api/EasyToOwnScanning/SaveScannedStock");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());

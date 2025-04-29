@@ -15,7 +15,7 @@ public class Active_Warehouses {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetAllActiveWarehouses");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetAllActiveWarehouses");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

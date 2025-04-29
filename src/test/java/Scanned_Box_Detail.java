@@ -23,7 +23,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                 body(requestBody).
                         when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -62,7 +62,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -101,7 +101,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -140,7 +140,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -179,7 +179,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -218,7 +218,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -257,7 +257,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -296,7 +296,7 @@ public class Scanned_Box_Detail {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
+                post("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetScannedBoxDetail");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

@@ -17,7 +17,7 @@ public class Dashboard_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=2025%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=2025%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -49,7 +49,7 @@ public class Dashboard_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=20025%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=20025%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -81,7 +81,7 @@ public class Dashboard_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=2000%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=2000%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -113,7 +113,7 @@ public class Dashboard_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=2060%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDashboardSummary?defaultDate=2060%2F03%2F17");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -145,7 +145,7 @@ public class Dashboard_Summary {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetDashboardSummary");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetDashboardSummary");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

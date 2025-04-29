@@ -24,7 +24,7 @@ public class Update_Procurement_Header {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
+                post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -64,7 +64,7 @@ public class Update_Procurement_Header {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
+                post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -104,7 +104,7 @@ public class Update_Procurement_Header {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
+                post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -144,7 +144,7 @@ public class Update_Procurement_Header {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
+                post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -184,7 +184,7 @@ public class Update_Procurement_Header {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
+                post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -224,7 +224,7 @@ public class Update_Procurement_Header {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                post("http://10.0.0.26:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
+                post("http://10.111.111.139:7019/api/EasyToOwnProcurement/UpdateProcurementHeader");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

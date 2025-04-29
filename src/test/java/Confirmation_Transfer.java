@@ -15,7 +15,7 @@ public class Confirmation_Transfer {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q215756&receiptId=7&totalTransferQuantity=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q215756&receiptId=7&totalTransferQuantity=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -46,7 +46,7 @@ public class Confirmation_Transfer {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q215756&totalTransferQuantity=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q215756&totalTransferQuantity=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -77,7 +77,7 @@ public class Confirmation_Transfer {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q215756&receiptId=90&totalTransferQuantity=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q215756&receiptId=90&totalTransferQuantity=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -108,7 +108,7 @@ public class Confirmation_Transfer {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q21575699&receiptId=7&totalTransferQuantity=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?whsCodeTo=Q21575699&receiptId=7&totalTransferQuantity=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -139,7 +139,7 @@ public class Confirmation_Transfer {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?receiptId=7&totalTransferQuantity=1");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetConfirmationOfTransfer?receiptId=7&totalTransferQuantity=1");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

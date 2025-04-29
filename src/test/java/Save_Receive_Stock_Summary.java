@@ -14,7 +14,7 @@ public class Save_Receive_Stock_Summary {
                     // If needed, uncomment the Authorization header.
                     // header("Authorization", "Bearer " + token).
                             when().
-                    post("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/SaveReceiveStockSummary");
+                    post("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/SaveReceiveStockSummary");
 
             // Log the response details for debugging purposes
             System.out.println("Status Code: " + response.getStatusCode());
@@ -55,7 +55,7 @@ public class Save_Receive_Stock_Summary {
                     //header("Authorization", "Bearer " + token). // Uncomment if authorization is needed
                     //body(requestBody). // Uncomment if body is needed
                             when().
-                    post("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/SaveReceiveStockSummary");
+                    post("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/SaveReceiveStockSummary");
 
             // Print response details
             System.out.println("Status Code : " + response.getStatusCode());
@@ -94,7 +94,7 @@ public class Save_Receive_Stock_Summary {
                     // If needed, uncomment the Authorization header.
                     // header("Authorization", "Bearer " + token).
                             when().
-                    post("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/SaveReceiveStockSummary");
+                    post("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/SaveReceiveStockSummary");
 
             // Log status code, body, and response time for debugging purposes
             System.out.println("Status Code: " + response.getStatusCode());

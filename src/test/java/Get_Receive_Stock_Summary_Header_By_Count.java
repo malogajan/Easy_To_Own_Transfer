@@ -14,7 +14,7 @@ public class Get_Receive_Stock_Summary_Header_By_Count {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetDeviceReceiveStockUsers");
+                get("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/GetDeviceReceiveStockUsers");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());

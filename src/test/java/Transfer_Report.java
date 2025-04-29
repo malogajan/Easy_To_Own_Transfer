@@ -14,7 +14,7 @@ public class Transfer_Report {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferReport?receiptNo=7&whsCode=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferReport?receiptNo=7&whsCode=Q215756");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -56,7 +56,7 @@ public class Transfer_Report {
                 header("Authorization", "Bearer " + token). // Uncomment if authorization is needed
                 //body(requestBody). // Uncomment if body is needed
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferReport?receiptNo=79&whsCode=Q215756");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferReport?receiptNo=79&whsCode=Q215756");
 
         // Print response details
         System.out.println("Status Code : " + response.getStatusCode());
@@ -95,7 +95,7 @@ public class Transfer_Report {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetTransferReport?receiptNo=7&whsCode=Q215756&startDate=20825%2F03%2F17&endDate=2025%2F03%2F17");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetTransferReport?receiptNo=7&whsCode=Q215756&startDate=20825%2F03%2F17&endDate=2025%2F03%2F17");
 
         // Log status code, body, and response time for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());

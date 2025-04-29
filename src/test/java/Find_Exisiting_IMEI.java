@@ -16,7 +16,7 @@ public class Find_Exisiting_IMEI {
                     //.header("Authorization", "Bearer " + token) // Uncomment if auth is needed
                     //.body(requestBody) // Only used if POST method
                     .when()
-                    .get("http://10.0.0.26:7019/api/EasyToOwnProcurement/FindExistingIMEI?primaryIMEINumber=54849848484848456");
+                    .get("http://10.111.111.139:7019/api/EasyToOwnProcurement/FindExistingIMEI?primaryIMEINumber=54849848484848456");
 
             // 🧾 Print basic response details
             System.out.println("Status Code : " + response.getStatusCode());
@@ -51,7 +51,7 @@ public class Find_Exisiting_IMEI {
                     .header("Content-Type", "application/json")
                     //.header("Authorization", "Bearer " + token) // Uncomment if required
                     .when()
-                    .get("http://10.0.0.26:7019/api/EasyToOwnProcurement/FindExistingIMEI?primaryIMEINumber=54849848484848456hhhh");
+                    .get("http://10.111.111.139:7019/api/EasyToOwnProcurement/FindExistingIMEI?primaryIMEINumber=54849848484848456hhhh");
 
             // 🧾 Print the full response
             System.out.println("Status Code : " + response.getStatusCode());

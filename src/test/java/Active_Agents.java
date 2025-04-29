@@ -17,7 +17,7 @@ public class Active_Agents {
                 //header("Authorization", "Bearer " + token).
                 //body(requestBody).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnTransfer/GetAllActiveAgents");
+                get("http://10.111.111.139:7019/api/EasyToOwnTransfer/GetAllActiveAgents");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

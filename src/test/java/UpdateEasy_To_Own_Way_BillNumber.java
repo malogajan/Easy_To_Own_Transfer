@@ -20,7 +20,7 @@ public class UpdateEasy_To_Own_Way_BillNumber {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
+                put("http://10.111.111.139:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -56,7 +56,7 @@ public class UpdateEasy_To_Own_Way_BillNumber {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
+                put("http://10.111.111.139:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -92,7 +92,7 @@ public class UpdateEasy_To_Own_Way_BillNumber {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
+                put("http://10.111.111.139:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -128,7 +128,7 @@ public class UpdateEasy_To_Own_Way_BillNumber {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
+                put("http://10.111.111.139:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -164,7 +164,7 @@ public class UpdateEasy_To_Own_Way_BillNumber {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
+                put("http://10.111.111.139:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());
@@ -200,7 +200,7 @@ public class UpdateEasy_To_Own_Way_BillNumber {
                 //header("Authorization", "Bearer " + token).
                         body(requestBody).
                 when().
-                put("http://10.0.0.26:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
+                put("http://10.111.111.139:7019/api/EasyToOwnDispatch/UpdateEasyToOwnWayBillNumber");
 
         System.out.println("Status Code : " + response.getStatusCode());
         System.out.println("Response : " + response.getBody().asString());

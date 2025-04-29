@@ -14,7 +14,7 @@ public class Receive_Stock_Summary_By_Batch {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetReceiveStockSummaryByBatch?systemBatchNumber=15");
+                get("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/GetReceiveStockSummaryByBatch?systemBatchNumber=15");
 
         // Log the response details for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
@@ -56,7 +56,7 @@ public class Receive_Stock_Summary_By_Batch {
                 header("Authorization", "Bearer " + token). // Uncomment if authorization is needed
                 //body(requestBody). // Uncomment if body is needed
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetReceiveStockSummaryByBatch?systemBatchNumber=15r");
+                get("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/GetReceiveStockSummaryByBatch?systemBatchNumber=15r");
 
         // Print response details
         System.out.println("Status Code : " + response.getStatusCode());
@@ -95,7 +95,7 @@ public class Receive_Stock_Summary_By_Batch {
                 // If needed, uncomment the Authorization header.
                 // header("Authorization", "Bearer " + token).
                         when().
-                get("http://10.0.0.26:7019/api/EasyToOwnReceiveStock/GetReceiveStockSummaryByBatch");
+                get("http://10.111.111.139:7019/api/EasyToOwnReceiveStock/GetReceiveStockSummaryByBatch");
 
         // Log status code, body, and response time for debugging purposes
         System.out.println("Status Code: " + response.getStatusCode());
